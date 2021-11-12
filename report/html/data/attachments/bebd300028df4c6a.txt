@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_put_employees.py:40 =====修改员工api,前置发送添加员工apihttp://ihrm-test.itheima.net/api/sys/user，获取响应，获取员工id1458646578230198272=====
+[32mINFO    [0m root:test_put_employees.py:62 =====发送添加员工apihttp://ihrm-test.itheima.net/api/sys/user/1458646578230198272，获取响应，获取员工id1458646578230198272=====
+[32mINFO    [0m root:test_put_employees.py:69 =====修改员工apihttp://ihrm-test.itheima.net/api/sys/user/1458646578230198272，响应数据与预期数据做断言，10000=={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'xxx-xxx'}=====

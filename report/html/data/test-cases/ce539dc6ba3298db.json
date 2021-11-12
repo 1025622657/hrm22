@@ -1,0 +1,140 @@
+{
+  "uid" : "ce539dc6ba3298db",
+  "name" : "登录成功测试",
+  "fullName" : "case.test_login.TestLogin#test_login",
+  "historyId" : "cee192dcedeef3750a9398e4a4a67fb3",
+  "time" : {
+    "start" : 1636603394834,
+    "stop" : 1636603394920,
+    "duration" : 86
+  },
+  "description" : "\n        登录测试\n        :param test_data: 登录测试数据\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    登录测试\n    :param test_data: 登录测试数据\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1636603394495,
+      "stop" : 1636603394610,
+      "duration" : 115
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "setup:调用登录api接口",
+      "time" : {
+        "start" : 1636603394495,
+        "stop" : 1636603394607,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://ihrm-test.itheima.net/api/sys/login'"
+      }, {
+        "name" : "data",
+        "value" : "{'mobile': '13800000001', 'password': '123456'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        登录测试\n        :param test_data: 登录测试数据\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "setup:调用登录api接口",
+      "time" : {
+        "start" : 1636603394834,
+        "stop" : 1636603394905,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://ihrm-test.itheima.net/api/sys/login'"
+      }, {
+        "name" : "data",
+        "value" : "{'mobile': '13800000002', 'password': '123456'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "aeb318e0e5882686",
+      "name" : "log",
+      "source" : "aeb318e0e5882686.txt",
+      "type" : "text/plain",
+      "size" : 382
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录-测试案例"
+  }, {
+    "name" : "feature",
+    "value" : "登录-模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BP5T64T7"
+  }, {
+    "name" : "thread",
+    "value" : "10396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'url': '/api/sys/login', 'method': 'post', 'body': '{ \"mobile\":\"13800000002\", \"password\":\"123456\"}', 'expect': '{ \"success\":true, \"code\":10000, \"message\":\"操作成功！\", \"data\":\"xxx-xxx\" }'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce539dc6ba3298db.json",
+  "parameterValues" : [ "{'url': '/api/sys/login', 'method': 'post', 'body': '{ \"mobile\":\"13800000002\", \"password\":\"123456\"}', 'expect': '{ \"success\":true, \"code\":10000, \"message\":\"操作成功！\", \"data\":\"xxx-xxx\" }'}" ]
+}

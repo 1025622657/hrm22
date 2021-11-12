@@ -1,0 +1,56 @@
+# 添加员工-修改员工的前置条件是添加员工
+"url": "/api/sys/user"
+"method": "post"
+"body": '{"username":"农业部2321",
+          "mobile":"18922231118",
+          "workNumber":"14",
+          "timeOfEntry":"",
+          "formOfEmployment":"1",
+          "departmentId":"1454995218804867072",
+          "departmentName":"技术部",
+          "correctionTime":""}'
+"expect": '{
+           "success":true,
+           "code":10000,
+           "message":"操作成功！",
+           "data":"xxx-xxx"
+           }'
+---
+# 修改员工-必填参数
+"url": "/api/sys/user/{}"
+"method": "put"
+"body": '{"username":"农业部232-8888",
+          "mobile":"18911119998",
+          "workNumber":"14",
+          "timeOfEntry":"",
+          "formOfEmployment":"1",
+          "departmentId":"1454995218804867072",
+          "departmentName":"技术部",
+          "correctionTime":""}'
+"expect": '{
+           "success":true,
+           "code":10000,
+           "message":"操作成功！",
+           "data":"xxx-xxx"
+           }'
+---
+# 修改员工-必填参数
+"url": "/api/sys/user/{}"
+"method": "put"
+"body": '{"username":"农业部232-999",
+          "mobile":"18911112294",
+          "workNumber":"14",
+          "timeOfEntry":"",
+          "formOfEmployment":"1",
+          "departmentId":"1454995218804867072",
+          "departmentName":"技术部",
+          "correctionTime":""}'
+"expect": '{
+           "success":true,
+           "code":10000,
+           "message":"操作成功！",
+           "data":"xxx-xxx"
+           }'
+
+
+

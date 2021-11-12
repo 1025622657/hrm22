@@ -1,0 +1,51 @@
+[ {
+  "uid" : "ce539dc6ba3298db",
+  "name" : "登录成功测试",
+  "time" : {
+    "start" : 1636603394834,
+    "stop" : 1636603394920,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e986ec53935038c",
+  "name" : "员工修改成功测试",
+  "time" : {
+    "start" : 1636603395293,
+    "stop" : 1636603395391,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "680732947974d64d",
+  "name" : "登录成功测试",
+  "time" : {
+    "start" : 1636603394938,
+    "stop" : 1636603395045,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a96e0df6fd30a813",
+  "name" : "员工修改成功测试",
+  "time" : {
+    "start" : 1636603395171,
+    "stop" : 1636603395288,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5078bc6cb962594a",
+  "name" : "员工添加成功测试",
+  "time" : {
+    "start" : 1636603394615,
+    "stop" : 1636603394728,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

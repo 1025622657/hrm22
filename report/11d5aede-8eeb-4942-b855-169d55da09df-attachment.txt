@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_login.py:37 =====发送登录员工apihttp://ihrm-test.itheima.net/api/sys/login，获取响应<Response [200]>=====
+[32mINFO    [0m root:test_login.py:44 =====登录员工apihttp://ihrm-test.itheima.net/api/sys/login，响应数据与预期数据做断言，10000=={'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'xxx-xxx'}=====

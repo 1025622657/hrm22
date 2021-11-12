@@ -1,0 +1,164 @@
+{
+  "uid" : "5078bc6cb962594a",
+  "name" : "员工添加成功测试",
+  "fullName" : "case.test_add_employees.TestAddEmployees#test_add_employees",
+  "historyId" : "9c96eebb6037680a189378d63b1979c6",
+  "time" : {
+    "start" : 1636603394615,
+    "stop" : 1636603394728,
+    "duration" : 113
+  },
+  "description" : "\n        添加员工测试\n        :param test_data: 添加员工测试数据\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    添加员工测试\n    :param test_data: 添加员工测试数据\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1636603394495,
+      "stop" : 1636603394610,
+      "duration" : 115
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "setup:调用登录api接口",
+      "time" : {
+        "start" : 1636603394495,
+        "stop" : 1636603394607,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://ihrm-test.itheima.net/api/sys/login'"
+      }, {
+        "name" : "data",
+        "value" : "{'mobile': '13800000001', 'password': '123456'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        添加员工测试\n        :param test_data: 添加员工测试数据\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "setup:调用添加员工api接口",
+      "time" : {
+        "start" : 1636603394615,
+        "stop" : 1636603394708,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://ihrm-test.itheima.net/api/sys/user'"
+      }, {
+        "name" : "data",
+        "value" : "{'username': '农业部2321', 'mobile': '18922223335', 'workNumber': '14', 'timeOfEntry': '', 'formOfEmployment': '1', 'departmentId': '1454995218804867072', 'departmentName': '技术部', 'correctionTime': ''}"
+      }, {
+        "name" : "method",
+        "value" : "'post'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "setup:调用删除员工api接口",
+      "time" : {
+        "start" : 1636603394732,
+        "stop" : 1636603394818,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://ihrm-test.itheima.net/api/sys/user/1458646576388898816'"
+      }, {
+        "name" : "data",
+        "value" : "{'id': '1458646576388898816'}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "ab817ee91e0179a6",
+      "name" : "log",
+      "source" : "ab817ee91e0179a6.txt",
+      "type" : "text/plain",
+      "size" : 786
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "员工-模块"
+  }, {
+    "name" : "story",
+    "value" : "员工-测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_employees"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddEmployees"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-BP5T64T7"
+  }, {
+    "name" : "thread",
+    "value" : "10396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_add_employees"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'url': '/api/sys/user', 'method': 'post', 'body': '{\"username\":\"农业部2321\", \"mobile\":\"18922223335\", \"workNumber\":\"14\", \"timeOfEntry\":\"\", \"formOfEmployment\":\"1\", \"departmentId\":\"1454995218804867072\", \"departmentName\":\"技术部\", \"correctionTime\":\"\"}', 'expect': '{ \"success\":true, \"code\":10000, \"message\":\"操作成功！\", \"data\":\"xxx-xxx\" }'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5078bc6cb962594a.json",
+  "parameterValues" : [ "{'url': '/api/sys/user', 'method': 'post', 'body': '{\"username\":\"农业部2321\", \"mobile\":\"18922223335\", \"workNumber\":\"14\", \"timeOfEntry\":\"\", \"formOfEmployment\":\"1\", \"departmentId\":\"1454995218804867072\", \"departmentName\":\"技术部\", \"correctionTime\":\"\"}', 'expect': '{ \"success\":true, \"code\":10000, \"message\":\"操作成功！\", \"data\":\"xxx-xxx\" }'}" ]
+}

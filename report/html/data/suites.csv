@@ -1,0 +1,26 @@
+"Status","Name","Duration in ms","Description"
+"passed","case.test_login.TestLogin#test_login","107","
+        登录测试
+        :param test_data: 登录测试数据
+        :return:
+        "
+"passed","case.test_put_employees.TestAddEmployees#test_put_employees","98","
+        修改员工测试
+        :param test_data: 修改员工测试数据
+        :return:
+        "
+"passed","case.test_login.TestLogin#test_login","86","
+        登录测试
+        :param test_data: 登录测试数据
+        :return:
+        "
+"passed","case.test_add_employees.TestAddEmployees#test_add_employees","113","
+        添加员工测试
+        :param test_data: 添加员工测试数据
+        :return:
+        "
+"passed","case.test_put_employees.TestAddEmployees#test_put_employees","117","
+        修改员工测试
+        :param test_data: 修改员工测试数据
+        :return:
+        "

@@ -1,0 +1,93 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_add_employees",
+      "children" : [ {
+        "name" : "TestAddEmployees",
+        "children" : [ {
+          "name" : "员工添加成功测试",
+          "uid" : "5078bc6cb962594a",
+          "parentUid" : "d05010a0badc220d6a14a7b6e0f1c88f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636603394615,
+            "stop" : 1636603394728,
+            "duration" : 113
+          },
+          "flaky" : false,
+          "parameters" : [ "{'url': '/api/sys/user', 'method': 'post', 'body': '{\"username\":\"农业部2321\", \"mobile\":\"18922223335\", \"workNumber\":\"14\", \"timeOfEntry\":\"\", \"formOfEmployment\":\"1\", \"departmentId\":\"1454995218804867072\", \"departmentName\":\"技术部\", \"correctionTime\":\"\"}', 'expect': '{ \"success\":true, \"code\":10000, \"message\":\"操作成功！\", \"data\":\"xxx-xxx\" }'}" ]
+        } ],
+        "uid" : "d05010a0badc220d6a14a7b6e0f1c88f"
+      } ],
+      "uid" : "8af11523709c2e781a0663fefd931d95"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "登录成功测试",
+          "uid" : "ce539dc6ba3298db",
+          "parentUid" : "b6273d70d64e7ed060deb8bfe2517c9a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636603394834,
+            "stop" : 1636603394920,
+            "duration" : 86
+          },
+          "flaky" : false,
+          "parameters" : [ "{'url': '/api/sys/login', 'method': 'post', 'body': '{ \"mobile\":\"13800000002\", \"password\":\"123456\"}', 'expect': '{ \"success\":true, \"code\":10000, \"message\":\"操作成功！\", \"data\":\"xxx-xxx\" }'}" ]
+        }, {
+          "name" : "登录成功测试",
+          "uid" : "680732947974d64d",
+          "parentUid" : "b6273d70d64e7ed060deb8bfe2517c9a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636603394938,
+            "stop" : 1636603395045,
+            "duration" : 107
+          },
+          "flaky" : false,
+          "parameters" : [ "{'url': '/api/sys/login', 'method': 'post', 'body': '{ \"mobile\":\"13800009999\", \"password\":\"123456\"}', 'expect': '{ \"success\":false, \"code\":20001, \"message\":\"用户名或密码错误\", \"data\":null }'}" ]
+        } ],
+        "uid" : "b6273d70d64e7ed060deb8bfe2517c9a"
+      } ],
+      "uid" : "4d35a481a77822d65b097aa3a55b4f11"
+    }, {
+      "name" : "test_put_employees",
+      "children" : [ {
+        "name" : "TestAddEmployees",
+        "children" : [ {
+          "name" : "员工修改成功测试",
+          "uid" : "a96e0df6fd30a813",
+          "parentUid" : "838edadf9dc7459ab41930e52abf2e80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636603395171,
+            "stop" : 1636603395288,
+            "duration" : 117
+          },
+          "flaky" : false,
+          "parameters" : [ "{'url': '/api/sys/user/{}', 'method': 'put', 'body': '{\"username\":\"农业部232-8888\", \"mobile\":\"18911119998\", \"workNumber\":\"14\", \"timeOfEntry\":\"\", \"formOfEmployment\":\"1\", \"departmentId\":\"1454995218804867072\", \"departmentName\":\"技术部\", \"correctionTime\":\"\"}', 'expect': '{ \"success\":true, \"code\":10000, \"message\":\"操作成功！\", \"data\":\"xxx-xxx\" }'}" ]
+        }, {
+          "name" : "员工修改成功测试",
+          "uid" : "1e986ec53935038c",
+          "parentUid" : "838edadf9dc7459ab41930e52abf2e80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1636603395293,
+            "stop" : 1636603395391,
+            "duration" : 98
+          },
+          "flaky" : false,
+          "parameters" : [ "{'url': '/api/sys/user/{}', 'method': 'put', 'body': '{\"username\":\"农业部232-999\", \"mobile\":\"18911112294\", \"workNumber\":\"14\", \"timeOfEntry\":\"\", \"formOfEmployment\":\"1\", \"departmentId\":\"1454995218804867072\", \"departmentName\":\"技术部\", \"correctionTime\":\"\"}', 'expect': '{ \"success\":true, \"code\":10000, \"message\":\"操作成功！\", \"data\":\"xxx-xxx\" }'}" ]
+        } ],
+        "uid" : "838edadf9dc7459ab41930e52abf2e80"
+      } ],
+      "uid" : "3ab112ab8306eb2d07d0e9bbfe9face5"
+    } ],
+    "uid" : "7559db31629684e5f31176d189a833ac"
+  } ]
+}

@@ -1,0 +1,4 @@
+INFO     root:conftest.py:20 =====发送登录员工api，获取token做认证，请求头传输'Bearer token'，获取token6c026039-48c8-435d-a2b4-98eb3aa4ad22=====
+INFO     root:test_get_employees.py:40 =====修改员工api,前置发送添加员工apihttp://ihrm-test.itheima.net/api/sys/user，获取响应，获取员工id1458686620071886848=====
+INFO     root:test_get_employees.py:61 =====发送查询员工apihttp://ihrm-test.itheima.net/api/sys/user/1458686620071886848，获取响应，获取员工id1458686620071886848=====
+INFO     root:test_get_employees.py:74 =====发送删除员工apihttp://ihrm-test.itheima.net/api/sys/user/1458686620071886848，做数据清理，删除员工id1458686620071886848=====

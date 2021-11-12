@@ -1,0 +1,19 @@
+---
+# 添加员工-必填参数
+"url": "/api/sys/user"
+"method": "post"
+"body": '{"username":"农业部2321",
+          "mobile":"18922223335",
+          "workNumber":"14",
+          "timeOfEntry":"",
+          "formOfEmployment":"1",
+          "departmentId":"1454995218804867072",
+          "departmentName":"技术部",
+          "correctionTime":""}'
+"expect": '{
+           "success":true,
+           "code":10000,
+           "message":"操作成功！",
+           "data":"xxx-xxx"
+           }'
+

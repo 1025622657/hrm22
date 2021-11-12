@@ -1,0 +1,32 @@
+---
+# 添加员工-查询员工api前置需添加员工
+"url": "/api/sys/user"
+"method": "post"
+"body": '{"username":"农业部2321",
+          "mobile":"18922223452",
+          "workNumber":"14",
+          "timeOfEntry":"",
+          "formOfEmployment":"1",
+          "departmentId":"1454995218804867072",
+          "departmentName":"技术部",
+          "correctionTime":""}'
+"expect": '{
+           "success":true,
+           "code":10000,
+           "message":"操作成功！",
+           "data":"xxx-xxx"
+           }'
+---
+# 查询员工
+"url": "/api/sys/user/{}"
+"method": "get"
+"expect": '{
+           "success":true,
+           "code":10000,
+           "message":"操作成功！",
+           "data":"xxx-xxx"
+           }'
+
+
+
+
