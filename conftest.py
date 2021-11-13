@@ -8,7 +8,7 @@ from tools.log import get_logger
 loginfo = get_logger()
 @pytest.fixture(scope='session', autouse=True)
 def login():
-    # 调用登录接口
+    # 调用登录接口22
     response = LoginApi().login(
         url = settings.LOGIN_USERINFO.get("login_url"),
         data = settings.LOGIN_USERINFO.get("body")
